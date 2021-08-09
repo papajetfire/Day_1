@@ -11,9 +11,12 @@
         let TV={
             brand:"Sony",
             size:"54",
-            resolution:"4k"
+            resolution:"4k",
+            name:function(){
+                return this.brand+" "+this.resolution;
+            }
         };
-        alert(TV.brand+" "+TV.resolution);
+        alert(TV.name());
     </script>
     
 </body>
