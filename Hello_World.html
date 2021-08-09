@@ -6,12 +6,24 @@
 
         <link rel="stylesheet" href="Index.css" />
         <title>Hello World</title>
+        <script>
+            function Show(){
+                var i=document.getElementById("I").value;
+                alert(i+ " the world says hello!");
+            }
+        </script>
     </head>
     <body>
 
         <header>
-            <h1>>Header</h1>
+            <h1>Welcome! Welcome!
+            </h1>
         </header>
+        <form>
+            <p>Enter your  name below</p><br>
+            <input type="text" id="I">
+            <input type="button" value="Submit" onclick="Show()">
+        </form>
 
         <script src="Index.js"></script>
     </body>
